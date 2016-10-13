@@ -1,0 +1,36 @@
+[ 2016-10-13T17:10:10+08:00 ] ::1 /xiangmu/blogs/index.php/Login/doLogout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+ERR: 无法加载模块:Login
+
+[ 2016-10-13T17:10:23+08:00 ] ::1 /xiangmu/blogs/index.php/Login/doLogout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+ERR: 无法加载模块:Login
+
+[ 2016-10-13T17:10:43+08:00 ] ::1 /xiangmu/blogs/index.php/Login/doLogout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+ERR: 无法加载模块:Login
+
+[ 2016-10-13T17:10:43+08:00 ] ::1 /xiangmu/blogs/index.php/Login/doLogout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+ERR: 无法加载模块:Login
+
+[ 2016-10-13T17:10:47+08:00 ] ::1 /xiangmu/blogs/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载模块:Login
+
+[ 2016-10-13T17:11:02+08:00 ] ::1 /xiangmu/blogs/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+ERR: 无法加载模块:Login
+

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="__PUBLIC__/Css/basic.css">
+		<link rel="stylesheet" href="__PUBLIC__/Css/myblog.css">
+		<title>我的博客</title>
+	</head>
+	<body>
+		<div id='wrapper'>
+
+			<div id='logo'>
+				<include file="./Application/Home/View/Public/header.html" />
+			</div>
+
+			<div id='nav'>
+
+				<include file="./Application/Home/View/Public/nav.html" />
+			</div>
+
+			<div id="main">
+				<div id='main_form'>
+						<form action="__APP__/Home/Myblog/domyblog" method='post' enctype='multipart/form-data'>
+							<p class='title'>标题:<input type='text' name='title' class='title'/></p>
+							<p class='content'><span>内容:</span><textarea name='content' class='content'></textarea></p>
+							<p class='file'>附件:<input type='file' name='filename' class='file'/></p>
+							<p><input type='submit' class='submit' value="就点我"/></p>
+						</form>
+				</div>
+				
+			</div>
+
+			<div id='footer'>
+				<include file="./Application/Home/View/Public/footer.html" />
+			</div>
+		</div>
+
+
+		
+	</body>
+</html>

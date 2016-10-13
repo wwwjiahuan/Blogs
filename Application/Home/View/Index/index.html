@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<title>Index</title>
+	<link rel="stylesheet" href="__PUBLIC__/Css/basic.css">
+	<link rel="stylesheet" href="__PUBLIC__/Css/index.css">
+	<body>
+		<div id='wrapper'>
+
+			<div id='logo'>
+				<include file="./Application/Home/View/Public/header.html" />
+			</div>
+
+			<div id='nav'>
+
+				<include file="./Application/Home/View/Public/nav.html" />
+			</div>
+			<div id='main_body'>
+				<div id='main'>
+			
+					<div id='content'>
+						<div id='content_box'>
+							<foreach name='list' item='vo'>
+								<p class='title'><span>题目:</span><{$vo.title}></p>
+								<p class='content'>内　容:<{$vo.content}></p>
+								
+								<p class='username'>留言人:<{$vo.username}></p>
+								<p class='filename'>附件名:<{$vo.filename}></p>
+								<p class='time'> <{$vo.time|date='Y m d H:i:s',###}></p>
+								<p class='function'>
+								<!--<a href="__URL__/update?id=<{$vo.id}>" class='update'>修改</a>
+								<a href="__URL__/delete?id=<{$vo.id}>" class='delete'>删除</a>-->
+								</p>
+								<p class='line'></p>	
+							</foreach>
+						<{$show}>
+						</div>
+						
+					</div>
+
+					<div id='about'>
+						<div id="expert_title">
+							Programmer
+							<img class="triangle" alt="img" src="http://static.blog.csdn.net/static/images/triangle_right.png">
+						</div>
+						<div id='about_writer'>
+							<img class="head_expert" src="__PUBLIC__/Images/my.png" alt="图片">
+							<p class='writer_name'>王佳欢</p>
+							<p class='writer_description'>未来web架构师</p>
+							<img class="icon_l" alt="img" src="http://static.blog.csdn.net/static/images/icon_l.png">
+							<img class="icon_r" alt="img" src="http://static.blog.csdn.net/static/images/icon_r.png">
+							<p class='writer_content'>来自华中农业大学，计科1504，沸点工作室</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div id='footer'>
+				<include file="./Application/Home/View/Public/footer.html" />
+			</div>
+		</div>
+		
+	</body>
+</html> 

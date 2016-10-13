@@ -1,0 +1,30 @@
+[ 2016-10-07T19:24:01+08:00 ] ::1 /xiangmu/blogs/index.php/Myblog/domyblog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:Myblog
+
+[ 2016-10-07T19:24:35+08:00 ] ::1 /xiangmu/blogs/index.php/Myblog/domyblog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+ERR: 无法加载模块:Myblog
+
+[ 2016-10-07T19:24:42+08:00 ] ::1 /xiangmu/blogs/index.php/Myblog/domyblog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+ERR: 无法加载模块:Myblog
+
+[ 2016-10-07T19:24:45+08:00 ] ::1 /xiangmu/blogs/index.php/Myblog/domyblog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+ERR: 无法加载模块:Myblog
+
+[ 2016-10-07T19:25:10+08:00 ] ::1 /xiangmu/blogs/index.php/Myblog/domyblog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+ERR: 无法加载模块:Myblog
+

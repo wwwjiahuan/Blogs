@@ -1,0 +1,10 @@
+[ 2016-10-11T22:10:30+08:00 ] ::1 /xiangmu/blogs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `tp_message` [ RunTime:0.0245s ]
+ERR: Think\Model:relation方法不存在！
+

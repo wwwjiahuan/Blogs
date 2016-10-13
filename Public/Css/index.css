@@ -1,0 +1,136 @@
+
+#main_body{
+	width: 100%;
+	height: 1000px;
+	background:#E7ECEF;
+}
+#main_body #main{
+	width: 80%;
+	height: 1000px;
+	margin:0 auto;
+	
+}
+#main_body #main #content{
+	width: 65%;
+	height: 945px;
+	float: left;
+	
+	background:white;
+}
+#main_body #main #content #content_box{
+	margin-left: 25px;
+	margin-top: 20px;
+}
+#main_body #main #content #content_box p.content,.time,.username,.filename{
+	font-size: 18px;
+}
+#main_body #main #content a.update,.delete{
+	display: block;
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+#main_body #main #content #content_box p a.update{
+	background-color: #48525E;
+	margin-left: 600px;
+
+}
+#main_body #main #content p a.delete{
+	background-color: #CC0000;
+	margin-left:660px; 
+	margin-top: -25px;
+}
+#main_body #main #content p.title{
+	font-size: 24px;
+	color: #48525E;
+}
+#main_body #main #content p.line{
+	background: #F3F3F3;
+	height: 2px;
+	width: 740px;
+	margin-top: 8px;
+
+}
+#main_body #main #content p span{
+	font-size: 19px;
+	color: #CC0000;
+}
+#main_body #main #about{
+	width: 35%;
+	height: 945px;
+	float: left;
+	background:lightpink;
+}
+#main_body #main #about #expert_title{
+	background: #d13030 none repeat scroll 0 0;
+	color: #fff;
+	font-size: 14px;
+	height: 28px;
+	width: 90px;
+	left: -7px;
+	line-height: 28px;
+	padding: 0 20px;
+	
+	top:10px;
+}
+#main_body #main #about #about_writer{
+	width: 350px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background:white;
+}
+#main_body #main #about #about_writer img.head_expert{
+	border: medium none;
+	outline: medium none;
+	border-radius: 50%;
+	display: block;
+	height: 130px;
+	margin: 0 auto;
+	width: 130px;
+}
+#main_body #main #about #about_writer p.writer_name{
+	font-weight: normal;
+	color: black;
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+#main_body #main #about #about_writer p.writer_description{
+	width: 160px;
+	border-radius: 10px;
+	border: 1px solid orange;
+	color: orange;
+	font-size: 15px;
+	margin:0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+#main_body #main #about #about_writer p.writer_content{
+	width: 250px;
+	color: black;
+	font-size: 14px;
+
+	margin:0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+#main_body #main #about #about_writer img.icon_l{
+	left: 0;
+	position: absolute;
+	top:0;
+}
+#main_body #main #about #about_writer img.icon_r{
+	bottom: 0;
+	position: absolute;
+	right:0;
+}
+
+
+
+

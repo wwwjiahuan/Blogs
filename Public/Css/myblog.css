@@ -1,0 +1,53 @@
+#main{
+	width: 100%;
+	height: 550px;
+	background:#E7ECEF;
+}
+#main #main_form{
+	margin:0 auto;
+	width: 60%;
+	height: 500px;
+	margin-top: 20px;
+	/*border: 2px solid #D3D3D3;*/
+}
+#main #main_form p{
+	margin-left: 250px;
+	margin-top: 20px;
+	font-size: 18px;
+}
+#main #main_form p.title{
+	
+	padding-top: 150px;
+}
+#main #main_form p input.title{
+	width: 350px;
+	height: 25px;
+	
+}
+#main #main_form p span{
+	display: block;
+	
+}
+#main #main_form p textarea.content{
+	width: 350px;
+	height: 150px;
+	margin-top: -25px;
+	margin-left: 41px;
+}
+
+#main #main_form p input.file{
+	width: 350px;
+	height: 25px;
+}
+#main #main_form p input.submit{
+	background-color: #6AA2E0;
+	width: 75px;
+	height: 36px;
+	line-height: 36px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: white;
+	margin:0 auto;
+	margin-left: 322px;
+	border-radius:5px; 
+}

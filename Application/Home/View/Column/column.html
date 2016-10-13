@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<title>Column</title>
+	<link rel="stylesheet" href="__PUBLIC__/Css/basic.css">
+	<link rel="stylesheet" href="__PUBLIC__/Css/index.css">
+	<body>
+		<div id='wrapper'>
+
+			<div id='logo'>
+				<p>博客</p>
+				<!--<span><a href='__APP__/Home/Login/login' target='_top' class='register'>登录</a>｜<a href='__APP__/Home/Register/register' class='login'>注册</a></span>-->
+				<p class='my'>欢迎你 <{$Think.session.username}> <a href='__APP__/Home/Loginbackstage/loginbackstage' target='_top'>退出</a></p>
+			</div>
+
+			<div id='nav'>
+
+				<include file="./Application/Home/View/Public/nav.html" />
+			</div>
+			<div id='main_body'>
+				<div id='main'>
+			
+					<div id='content'>
+						<div id='content_box'>
+							
+						</div>
+						
+					</div>
+
+					<div id='about'>
+						
+					</div>
+				</div>
+			</div>
+			
+
+			<div id='footer'>
+				<include file="./Application/Home/View/Public/footer.html" />
+			</div>
+		</div>
+		
+	</body>
+</html> 
